@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Boxes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="box-container">
+    <div class="box" onclick="toggleBox(this)">
+      <p>Box 1</p>
+      <div class="options">
+        <label>Color:
+          <select>
+            <option>Red</option>
+            <option>Green</option>
+            <option>Blue</option>
+          </select>
+        </label>
+        <label>Size:
+          <select>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <div class="box" onclick="toggleBox(this)">
+      <p>Box 2</p>
+      <div class="options">
+        <label>Color:
+          <select>
+            <option>Yellow</option>
+            <option>Purple</option>
+            <option>Orange</option>
+          </select>
+        </label>
+        <label>Size:
+          <select>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <div class="box" onclick="toggleBox(this)">
+      <p>Box 3</p>
+      <div class="options">
+        <label>Color:
+          <select>
+            <option>Black</option>
+            <option>White</option>
+            <option>Gray</option>
+          </select>
+        </label>
+        <label>Size:
+          <select>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+          </select>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
